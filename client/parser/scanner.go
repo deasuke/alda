@@ -718,9 +718,9 @@ func (s *scanner) scanToken() error {
 		s.addToken(Natural, nil)
 	case '/':
 		s.addToken(Separator, nil)
-	case '<':
-		s.addToken(OctaveDown, nil)
 	case '>':
+		s.addToken(OctaveDown, nil)
+	case '<':
 		s.addToken(OctaveUp, nil)
 	case ':':
 		s.addToken(Colon, nil)
