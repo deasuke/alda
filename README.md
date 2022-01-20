@@ -1,4 +1,4 @@
->でOctave up、<でOctave downは許せんので逆にした。
+.... >でOctave up、<でOctave downは許せんので逆にした。
 
 <p align="center">
   <a href="http://alda.io">
